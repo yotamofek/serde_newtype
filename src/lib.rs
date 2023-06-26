@@ -21,7 +21,7 @@ pub use serde;
 /// A struct, `MyNewtype(u64)`, will be generated with the following methods and
 /// trait implementations:
 /// - `MyNewtype::new() -> anyhow::Result<u64>`
-/// - `MyNewtype::get(self) -> u64
+/// - `MyNewtype::get(self) -> u64`
 /// - `impl Deref<Target = u64> for MyNewtype`
 /// - `impl TryFrom<u64, Error = anyhow::Error>> for MyNewtype`
 /// - `impl From<MyNewtype> for u64`
