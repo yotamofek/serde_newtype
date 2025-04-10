@@ -1,6 +1,6 @@
 [package]
 name = "serde_newtype"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Yotam Ofek <yotam.ofek@gmail.com>"]
 description = "Macro for generating newtypes with validity checks for use with serde"
